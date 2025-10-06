@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /privacy-policy
+Disallow: /admin
+
+# Host
+Host: https://aisante.in
+
+# Sitemaps
+Sitemap: https://aisante.in/sitemap.xml

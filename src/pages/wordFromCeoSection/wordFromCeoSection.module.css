@@ -1,0 +1,119 @@
+.description {
+    padding: 24px 0px;
+    min-height: 600px;
+}
+
+.description__content {
+    align-items: center;
+    flex-direction: column-reverse;
+    min-height: 500px;
+    display: flex;
+    gap: 50px;
+}
+
+.description__left,
+.description__image {
+    width: 100%;
+}
+
+.description__left {
+    flex: 1;
+    max-width: 658px;
+}
+
+.description__left h2 {
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 49px;
+}
+
+
+
+
+
+
+.description__image {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    position: relative;
+    width: 100%;
+}
+
+.description__image h2 {
+    text-align: left;
+    width: 100%;
+}
+
+.ceo-section__portrait {
+    object-fit: cover;
+
+    height: auto;
+}
+
+.description__signature,
+.description__signature svg {
+    max-width: 153px;
+}
+
+
+@media (min-width: 48em) {
+    .description__image {
+        justify-content: end;
+        align-items: end;
+    }
+
+    .description {
+        padding: 47px 0px 85px 0px;
+    }
+
+    .description__content {
+        flex-direction: row;
+    }
+
+    .description__left {
+        max-width: 467px;
+    }
+
+    .description__left h2 {
+        margin-bottom: 33px;
+        letter-spacing: 0;
+    }
+
+
+
+    .description__signature,
+    .description__signature svg {
+        max-width: 256px;
+    }
+}
+
+@media (min-width: 80em) {
+    .description {
+        padding: 111px 0 118px 0px;
+    }
+
+    .description__left {
+        max-width: 658px;
+    }
+
+    .description__left h2 {
+        letter-spacing: -1px;
+        line-height: 1.4;
+        margin-bottom: 50px;
+    }
+
+    .ceo-section__portrait {
+        max-width: 688px;
+        max-height: 711px;
+    }
+
+    .description__signature,
+    .description__signature svg {
+        max-width: 360px;
+    }
+
+}

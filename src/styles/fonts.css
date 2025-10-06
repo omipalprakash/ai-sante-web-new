@@ -1,0 +1,43 @@
+
+/* ---------------- Erstoria ---------------- */
+
+@font-face {
+    font-family: 'Erstoria';
+    src: url('/fonts/Erstoria/Erstoria-Regular.woff2') format('woff2'),
+        url('/fonts/Erstoria/Erstoria-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* ---------------- Salmond ---------------- */
+@font-face {
+  font-family: 'Salmond';
+  src: url('/fonts/Salmond/Salmond-Bold.woff2') format('woff2'),
+    url('/fonts/Salmond/Salmond-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Salmond';
+  src: url('/fonts/Salmond/Salmond-Regular.woff2') format('woff2'),
+    url('/fonts/Salmond/Salmond-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Salmond';
+  src: url('/fonts/Salmond/Salmond-Medium.woff2') format('woff2'),
+    url('/fonts/Salmond/Salmond-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------------- Global Body Font ---------------- */
+body {
+  font-family: 'Salmond', sans-serif;
+}

@@ -1,0 +1,44 @@
+const BigArrow = () => {
+  return (
+    <svg
+      width="226"
+      height="137"
+      viewBox="0 0 226 137"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g style={{ mixBlendMode: 'exclusion' }}>
+        <rect
+          width="214.326"
+          height="114.64"
+          transform="translate(0 22.5424) rotate(-6.0374)"
+          fill="url(#pattern0_2858_657)"
+          fillOpacity="0.35"
+          filter="brightness(50%)"  // Darken the fill using filter
+        />
+      </g>
+      <defs>
+        <pattern
+          id="pattern0_2858_657"
+          patternContentUnits="objectBoundingBox"
+          width="1"
+          height="1"
+        >
+          <use
+            xlinkHref="#image0_2858_657"
+            transform="scale(0.00704225 0.0131579)"
+          />
+        </pattern>
+        <image
+          id="image0_2858_657"
+          width="142"
+          height="76"
+          preserveAspectRatio="none"
+          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAABMCAMAAACMA3+FAAAAS1BMVEUAAADe0sTYz8Lg0Mjf08Xbz8Pe0sXd0cXe0sXe0cXc0sXe0sXf0sXd0cTXz7/f0sXe0sTe0sXc0sLe0cTc0sPd0sXb08Pd0cbe0sVO9a/YAAAAGHRSTlMAgBAgv0CQMN/fYO+fcCCv789goFCfQHApTcHEAAACrElEQVRo3s2Z246rIBRAN3cEkcpxWv7/S48tRcbQGcdWhPXSpGnsyr4qQm2ujkE7TN77GzQDnXUktAL2M+P2z4hgzhkUcY4xgeFwJj+DftYQznBure2fUErlxUcktcixA7W4n2EvTRibJicIvICwyXA7RqsL5UocVjo+V8EkeGwgGEpSlE8fx0nfr5PZwB4wQzTmb+QMPkD4GQ6fwwyNmbNqePsqfsbAIeDpXxfz9qaRCZV8GOyb0buNRQCggNHlS8BOrJ+Bo1E2VrZqY0UQ9AyR5HuqSIY+L4GKA+lreH/sHFtFe4X8TA/FIPuEcKZTVYi82OelhOStCR0AMT6FVBM6AKr7U8ZY1CkOCj761oZOKqGhfrJWGUNt6CwBokMTOkuApPpFh0Np8gBxXGUq5xj9S0WfrwMkJEyrjY1+Fpj/2GEyPBKfjAk+FjdyYEC61wX0KHQ4HzImn/xJogI8FPSUZ1FABeJSXe1U52cUVMHkDSbCF3VgOvhkY7kSogs+VQdP3vBoNXg0VCL51O/0tU8DrZX5vHP8VcjnllqLQhWST0rRWLeWk48WSy0LqIrQD58h1rKBuohlvxM/Y6Eyyt8ZMYCsXzzLfv963oHVf8PGn+PHhY/qUH+HNTB5HuAutNdDC0N1iA4vWcJMrA8L7dVItkJ7BXQD2QKw/k4r2XqWc71sYSIYY4Kst0WF3sKT6cfv75z5NMSnnZPXKL5y6V8gOQN6crbwtb/4H5FLdzE4gQEFl204FOdK16GwPTLOOYMsTZblR08uc+mNWP+fUDYplV/rgiYXxOAlivqEhnJgvrhwtnHSW76Yr3IJzFZJkNKTOYWmUxi2MbpseGwWma0AlQwPjgf/O8JZMjz6nqd9l0YFe110ITR7oNXPMvI71R6a4V4+E7SDQgz+A14WXLLtHX/eAAAAAElFTkSuQmCC"
+        />
+      </defs>
+    </svg>
+  );
+};
+
+export default BigArrow;

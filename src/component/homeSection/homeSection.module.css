@@ -1,0 +1,79 @@
+.banner {
+  height: 100vh;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #453030;
+  text-align: center;
+  padding: 0 1rem;
+  overflow: hidden;
+
+}
+
+.maintext {
+  font-family: 'Erstoria', serif;
+  font-weight: 400;
+  font-size: clamp(38px, 10vw, 140px);
+  line-height: 1.2;
+  text-transform: uppercase;
+  word-break: break-word;
+}
+
+/* Image animation target wrapper (not .imagestyle directly) */
+.imageAnimationWrapper {
+  width: 300px;
+  /* starting size, will be overridden by GSAP */
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoWrapper {
+  overflow: hidden;
+  display: inline-block;
+  width: 250px;
+  height: auto;
+  position: relative;
+}
+
+.imagestyle {
+  /* border-radius: 127.22px;  */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Tablets and small desktops */
+@media screen and (max-width: 1000px) {
+  .banner {
+    height: 80vh;
+  }
+
+  .imageAnimationWrapper {
+    width: 250px;
+  }
+
+  .imagestyle {
+    max-height: 300px;
+  }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+  .maintext {
+    font-size: clamp(2rem, 8vw, 4rem);
+    line-height: 1.1;
+  }
+
+  .imageAnimationWrapper {
+    width: clamp(100px, 45vw, 200px);
+  }
+
+  .imagestyle {
+    max-height: 220px;
+  }
+}

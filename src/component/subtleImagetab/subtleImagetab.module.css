@@ -1,0 +1,185 @@
+.subtlecontainer {
+  flex: 1;
+  min-width: 300px;
+  max-width: 793px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard_preview {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.dashboard_container {
+  position: relative;
+  width: 100%;
+}
+
+.dashboard_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.tabs_container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  padding-left: 1rem;
+}
+
+.tabs_container::before {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.feature_tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tab_wrapper {
+  width: 100%;
+}
+
+.feature_tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #e5e7eb;
+  background: transparent;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress_container {
+  width: 100%;
+  height: 6px;
+  background-color: #e5e7eb;
+  /* Light gray background */
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress_bar {
+  height: 100%;
+  background: linear-gradient(to right, #ba3f8e, #42549f);
+  /* Green progress */
+  transition: 0.07s ease;
+  /* Smooth progress transition */
+}
+
+.inactive_progress_container {
+  width: 100%;
+  height: 6px;
+  background-color: #e5e7eb;
+  /* Light gray for inactive state */
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inactive_progress_bar {
+  width: 0%;
+  /* No progress for inactive state */
+  height: 100%;
+}
+
+.inactive_progress_bar {
+  height: 2px;
+  background-color: transparent;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .subtlecontainer {
+    max-width: 450px;
+  }
+
+  .tabs_container {
+    max-width: 350px;
+    padding-left: 0.5rem;
+  }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .subtlecontainer {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .dashboard_preview {
+    max-width: 100%;
+  }
+
+  .tabs_container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  .tabs_container::before {
+    margin-bottom: 1rem;
+  }
+
+  .feature_tabs {
+    gap: 1rem;
+  }
+
+  .feature_tab {
+    padding-bottom: 0.75rem;
+  }
+
+
+
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .subtlecontainer {
+    min-width: 100%;
+  }
+
+  .dashboard_preview {
+    max-width: 100%;
+  }
+
+  .tabs_container {
+    min-width: 100%;
+  }
+
+
+
+}

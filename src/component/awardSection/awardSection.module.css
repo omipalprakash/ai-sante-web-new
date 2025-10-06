@@ -1,0 +1,41 @@
+.awardSection {
+    padding: 24px 0px 24px 0px;
+}
+
+.awardSection__content {
+    margin-bottom: 22px;
+}
+
+.awardSection__title {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+/* md */
+@media (min-width: 768px) {
+    .awardSection {
+        padding: 44px 0px 82px 0px;
+    }
+
+    .awardSection__content {
+        margin-bottom: 59px;
+    }
+
+    .awardSection__title {
+        font-size: 18px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .awardSection__content {
+        margin-bottom: 85px;
+    }
+
+    .awardSection__title {
+        font-size: 24px;
+    }
+
+}
